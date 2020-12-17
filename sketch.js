@@ -46,7 +46,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(600, 1000);
   (birdPreset[0].img).loadPixels();
   (birdPreset[1].img).loadPixels();
   (fishPreset[0].img).loadPixels();
